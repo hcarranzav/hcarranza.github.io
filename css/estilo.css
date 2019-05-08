@@ -1,3 +1,74 @@
-body {
-    color: blue
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted
+}
+
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+.cursiva {
+    color: #FF0000;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.borde2 {
+    border: double;
+    background: yellow;
+    color: blue;
+}
+
+.borde {
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+}
+
+ul.navbar {
+    list-style-type: none;
+    top: 2em;
+    left: 1em;
+    width: 8em
+}
+
+h4.grande {
+    color: blueviolet;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#scroll {
+    color: white;
+    font-size: 20px;
+    font-family: Courier;
+    border: 2px;
+    border-color: blue;
+    border-style: solid;
+    width: 300px;
+    height: 200px;
+    overflow: scroll;
+    background: black;
+}
+
+a:hover {
+    font-weight: bold;
+    background-color: white;
+    color: white;
+    text-decoration: underline;
+}
+
+a:link {
+    text-decoration: none;
+    color: red;
+}
+
+a:visited {
+    color: darkslateblue;
+}
+
+a:active {
+    background-color: yellow;
+    color: black;
 }
