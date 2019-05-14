@@ -4,6 +4,12 @@ address {
     border-top: thin dotted
 }
 
+table,
+th,
+tr {
+    border: 1px solid black;
+}
+
 p {
     font-family: "Comic Sans MS", cursive, sans-serif
 }
