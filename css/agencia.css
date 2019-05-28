@@ -1,0 +1,69 @@
+body {
+    background: #1EB0D7;
+    font-family: Tahoma;
+    font-size: 11px;
+    width: 1200px;
+    margin: auto;
+}
+
+#logo {
+    background: url(../img/trabajadores.png) no-repeat right;
+    background-size: 35%;
+    padding: 20em 0em 0em 0em;
+    text-transform: uppercase;
+}
+
+#logo h1 a {
+    margin: 0em;
+    padding: 0em 0em 0em 0em;
+    letter-spacing: -.1em;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+#subtitulo {
+    padding: 0em;
+    margin-top: -1em;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu li {
+    display: block;
+    float: left;
+    margin-right: 0.12em;
+    padding: 1em 1.5em;
+    background: #17BEAE;
+    box-shadow: inset 0p -2px 0px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #0C749C;
+    text-transform: uppercase;
+    font-size: .90em;
+    color: #fff;
+}
+
+#seccion {
+    width: 1150px;
+    padding: 20px 40px;
+    background: #fff;
+    height: 290px;
+}
+
+.derecha {
+    margin: -5px 20px 0px 0px;
+    float: right;
+    width: 65%;
+    text-align: justify;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+}
