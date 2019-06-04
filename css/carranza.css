@@ -1,0 +1,331 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.logo {
+    max-height: 180px;
+    min-width: 100px;
+    max-width: 180px;
+}
+
+h1 {
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+    position: relative;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.divider {
+    border-bottom: 2px solid darkgrey;
+}
+
+section {
+    padding: 80px 0px;
+}
+
+.bg-light-grey {
+    background-color: #f5f5f5;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+p {
+    font-size: 18px;
+    color: #1a1a1a;
+    line-height: 1.8;
+    margin-bottom: 0;
+    position: relative;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.topmargin-xs {
+    margin-top: 15px !important;
+}
+
+.topmargin-sm {
+    margin-top: 30px !important;
+}
+
+.topmargin-lg {
+    margin-top: 60px !important;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+}
+
+.btn-blanco {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+.btn i {
+    font-size: 16px;
+    margin-left: 6px;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, .05);
+    height: 60px;
+}
+
+.nav-link {
+    color: #1a1a1a;
+}
+
+.navbar-toggler {
+    font-size: 40px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+#img {
+    background-image: url("../imagenes/yo.jpg");
+    background-size: cover;
+    position: relative;
+    padding-top: 90px;
+    min-height: 600px;
+    color: white;
+}
+
+#img:before {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.6);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#img p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+
+#sitios {
+    margin: auto;
+    padding-top: 60px;
+}
+
+#serv {
+    margin: auto;
+    padding-top: 60px;
+}
+
+.navbar-collapse {
+    background-color: white;
+}
+
+.servicios-container {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    border-radius: 2px;
+}
+
+.servicios-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.servicios-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.servicios-detalles {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.servicios-detalles h2 {
+    margin-bottom: 0px;
+}
+
+.servicios-detalles a h2 {
+    color: royalblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px #1a1a1a;
+}
+
+.servicios-detalles a p {
+    text-shadow: 1px 1px #1a1a1a;
+    color: #ffb944;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.carousel {
+    min-height: 240px;
+    padding: 20px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.carousel p {
+    font-size: 26px;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    color: white;
+    opacity: 1;
+    width: 5%;
+}
+
+.carousel-inner h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: yellow;
+    text-shadow: 2px 2px black;
+}
+
+.carousel-inner p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: seashell;
+    text-shadow: 2px 2px black;
+}
+
+.control-buttom {
+    background-color: black;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.rating i {
+    color: gold;
+    font-size: 26px;
+}
+
+#contact {
+    padding-top: 35px;
+}
+
+#footer {
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:hover {
+    color: cadetblue;
+}
+
+#footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+
+#footer ul li i {
+    font-size: 20px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    .carousel-item img {
+        width: 200px;
+    }
+    h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+    #img {
+        background-size: 600px;
+    }
+    .footer-menu {
+        display: block !important;
+        padding: 20px 0 !important;
+        font-size: 20px;
+    }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .carousel-item img {
+        width: 500px;
+    }
+    #img {
+        background-size: 800px;
+    }
+    .carousel-inner h2,
+    .carousel-inner p {
+        font-size: 10px;
+        line-height: normal;
+    }
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .carousel-item img {
+        width: 700px;
+    }
+    .carousel-inner h2,
+    .carousel-inner p {
+        font-size: 20px;
+        line-height: normal;
+    }
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .carousel-inner h2,
+    .carousel-inner p {
+        font-size: 30px;
+        line-height: normal;
+    }
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
